@@ -61,7 +61,7 @@ fn main() {
     println!("Initiating Quantum-Enhanced Binary Search from 2030...");
 
     let mut quantum_computer = QuantumComputer::new(1000);
-    let target = 42;
+    let target = 48;
 
     match quantum_binary_search(&mut quantum_computer, target) {
         Some(index) => println!("Target {} found at quantum state index: {}", target, index),
